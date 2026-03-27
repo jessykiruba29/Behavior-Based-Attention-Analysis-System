@@ -1,20 +1,15 @@
 import { useNavigate } from 'react-router-dom';
 import { 
   BrainCircuit,
-  Brain,
   Shield,
   Lock,
   Cpu,
-  Eye,
   BarChart3,
   Zap,
   ArrowRight,
   Clock,
-  Sparkles,
   Target,
   Rocket,
-  Activity,
-  Monitor
 } from 'lucide-react';
 
 export default function LandingPage() {
@@ -308,7 +303,7 @@ export default function LandingPage() {
                   Ready to Illuminate Your Focus?
                 </h2>
                 <p className="text-lg text-gray-400 mb-10 max-w-2xl mx-auto">
-                  Join thousands who have discovered their cognitive patterns with NeuroFocus.
+                  Join people who have discovered their cognitive patterns with NeuroFocus.
                   No sign-up required. Just pure, brilliant analytics.
                 </p>
                 
@@ -324,9 +319,7 @@ export default function LandingPage() {
                     </span>
                   </button>
                   
-                  <button className="btn-outline-neon px-10 py-4 text-lg font-semibold">
-                    View Demo
-                  </button>
+                 
                 </div>
                 
                 <p className="text-sm text-gray-500 mt-8">
